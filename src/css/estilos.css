@@ -20,6 +20,8 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 2em;
+  background-color: #191c32;
+  color: #fff;
 }
 .brand {
   margin-top: -7px;
