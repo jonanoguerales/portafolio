@@ -1,0 +1,17 @@
+@import "../utils/Colors.scss";
+
+.brand {
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: xx-large;
+  padding: 0.6rem 1rem;
+  color: $whiteColor;
+  font-weight: bolder;
+  letter-spacing: 0.2rem;
+  .agrandar{
+    font-size: 43px;
+  }
+  .color {
+    color: $buttonBlueColor;
+  }
+}
