@@ -10,11 +10,11 @@ import BlogImage3 from "../assets/blogImage3.jpg";
 import "../css/sections/Blogs.scss";
 import { textAnimation, cardAnimation } from "../utils/Animations";
 
-function Blogs() {
+function Portafolio() {
   const [element, controls] = useScroll();
 
   return (
-    <div className="blogs-container" id="blog" ref={element}>
+    <div className="blogs-container" id="portafolio" ref={element}>
       <div className="container">
         <motion.div
           className="title-container"
@@ -22,8 +22,8 @@ function Blogs() {
           animate={controls}
           transition={{ duration: 1 }}
         >
-          <Title title="Blogs" color="pink" lineCenter={true} />
-          <p>Insights and advice from our experts.</p>
+          <Title title="Portafolio" color="pink" lineCenter={true} />
+          <p>Proyectos realizados</p>
         </motion.div>
         <div className="blogs">
           <Blog
@@ -62,4 +62,4 @@ function Blogs() {
   );
 }
 
-export default Blogs;
+export default Portafolio;

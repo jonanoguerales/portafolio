@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import "../css/sections/Testimonials.scss";
 import { textAnimation, cardAnimation } from "../utils/Animations";
 
-export default function Testimonials() {
+export default function Skills() {
   const [element, controls] = useScroll();
 
   return (
@@ -20,7 +20,7 @@ export default function Testimonials() {
             duration: 1,
           }}
         >
-          <Title title="Testimonials" color="blue" lineCenter={true} />
+          <Title title="Skills" color="white" lineCenter={true} />
           <p>See what our clients are saying about us.</p>
         </motion.div>
         <div className="testimonials">

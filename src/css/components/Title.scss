@@ -4,17 +4,17 @@
   h2 {
     margin-bottom: 0.7rem;
     font-size: xx-large;
-    color: $headingColor;
+    color: $buttonBlueColor;
   }
   div {
     height: 0.3rem;
     width: 3rem;
     border-radius: 0.1rem;
   }
-  div .blue {
-    background-color: $headingColor;
+  div .white {
+    background-color: $whiteColor;
   }
-  div .pink {
+  div .black {
     background-color: $blackColor;
   }
 }

@@ -1,11 +1,10 @@
 import React from "react";
-import Testimonials from "./components/Testimonial";
 import Navbar from "./components/Navbar";
 import ScrollToTop from "./components/ScrollToTop";
-import Starter from "./pages/Starter";
+import Home from "./pages/Home";
 import About from "./pages/About";
-import Why from "./pages/Why";
-import Blogs from "./pages/Blogs";
+import Skills from "./pages/Skills";
+import Portafolio from "./pages/Portafolio";
 import Footer from "./pages/Footer";
 import { motion } from "framer-motion";
 
@@ -15,11 +14,10 @@ function App() {
     <motion.div initial="hidden" animate="show">
       <Navbar />
       <ScrollToTop />
-      <Starter />
+      <Home />
       <About />
-      <Why />
-      <Testimonials />
-      <Blogs />
+      <Skills />
+      <Portafolio />
       <Footer />
     </motion.div>
   );

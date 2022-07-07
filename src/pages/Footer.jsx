@@ -23,9 +23,6 @@ function Footer() {
             transition={{ duration: 0.5 }}
           >
             <BrandName isFooter={true} />
-            <p>
-              Join our newsletter to get updated with our Offers & Discounts.
-            </p>
           </motion.div>
 
           <motion.div
@@ -34,7 +31,7 @@ function Footer() {
             animate={controls}
             transition={{ duration: 0.5 }}
           >
-            <h3>Get in Touch</h3>
+            <h3>Informacion</h3>
             <div className="touch-section">
               <div className="icon">
                 <MdEmail />
@@ -42,7 +39,7 @@ function Footer() {
               <div className="detail">
                 <div className="detail-name">Email</div>
                 <div className="detail-content">
-                  <a href="#">kishansheth21@gmail.com</a>
+                  <p>jonathannoguerales@gmail.com</p>
                 </div>
               </div>
             </div>
@@ -51,9 +48,9 @@ function Footer() {
                 <FaPhoneAlt />
               </div>
               <div className="detail">
-                <div className="detail-name">Phone</div>
+                <div className="detail-name">Telefono</div>
                 <div className="detail-content">
-                  <a href="#">+91 7551231231</a>
+                  <p>644573199</p>
                 </div>
               </div>
             </div>
@@ -63,9 +60,9 @@ function Footer() {
                 <ImLocation />
               </div>
               <div className="detail">
-                <div className="detail-name">Location</div>
+                <div className="detail-name">Localidad</div>
                 <div className="detail-content">
-                  <a href="#"> 32 StreetOne Boards, GJ 560123</a>
+                  <p>Madrid</p>
                 </div>
               </div>
             </div>
@@ -73,7 +70,7 @@ function Footer() {
         </div>
         <div className="copyright">
           <div className="copy">
-            <p>Copyright c 2021. All Rights Reserved.</p>
+            <p>Copyright c 2022. All Rights Reserved.</p>
           </div>
           <div className="icons">
             <div className="icon">
