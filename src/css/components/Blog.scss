@@ -8,15 +8,45 @@
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
   transition: 0.4s ease-in-out;
   &:hover {
-    box-shadow: #f32a8f2f 5px 5px, #f32a8f1e 10px 10px, #f32a8f02 15px 15px;
+    box-shadow: rgba(99, 15, 179, 0.5) 5px 5px, rgba(99, 15, 179, 0.3) 10px 10px,
+      rgba(99, 15, 179, 0.1) 15px 15px;
+    transform: scale(1.1)!important;
   }
-  .image {
-    height: 12rem;
-    img {
-      height: 12rem;
-      width: 100%;
+  .image1 {
+    width: 100%;
+    height: 20rem;
+    background-image: url(../../img/blog.png);
+    background-size: 100%;
+    &:hover {
+      animation: movimiento 25s infinite linear alternate;
     }
   }
+  .image2 {
+    width: 100%;
+    height: 20rem;
+    background-image: url(../../assets/blogImage1.jpg);
+    background-size: 100%;
+    &:hover {
+      animation: movimiento 25s infinite linear alternate;
+    }
+  }
+  .image3 {
+    width: 100%;
+    height: 20rem;
+    background-image: url(../../assets/blogImage2.jpg);
+    background-size: 100%;
+    &:hover {
+      animation: movimiento 25s infinite linear alternate;
+    }
+  }
+  @keyframes movimiento {
+    from{
+      background-position: top;
+    }to{
+      background-position: bottom;
+    }
+  }
+
   .content {
     padding: 1rem;
     .title {

@@ -3,7 +3,7 @@ import Title from "../components/Title";
 import Testimonial from "../components/Testimonial";
 import { useScroll } from "../components/useScroll";
 import { motion } from "framer-motion";
-import "../css/sections/Testimonials.scss";
+import "../css/sections/Skills.scss";
 import { textAnimation, cardAnimation } from "../utils/Animations";
 
 export default function Skills() {
@@ -20,7 +20,7 @@ export default function Skills() {
             duration: 1,
           }}
         >
-          <Title title="Skills" color="white" lineCenter={true} />
+          <Title title="Skills" lineCenter={true} colorFondo="white"/>
           <p>See what our clients are saying about us.</p>
         </motion.div>
         <div className="testimonials">

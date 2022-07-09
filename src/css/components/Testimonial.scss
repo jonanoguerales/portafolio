@@ -23,6 +23,7 @@
   &:hover {
     box-shadow: rgba(99, 15, 179, 0.5) 5px 5px, rgba(99, 15, 179, 0.3) 10px 10px,
       rgba(99, 15, 179, 0.1) 15px 15px;
+    transform: scale(1.1)!important;
   }
   .content {
     color: $blackColor;

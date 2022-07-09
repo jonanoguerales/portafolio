@@ -19,7 +19,7 @@ function About() {
           variants={reveal}
           transition={{ delay: 0.1, stiffness: 300 }}
         >
-          <Title title="Acerca de mí" color="blue" />
+          <Title title="Acerca de mí" colorFondo="black" />
           <p>
             Hola, mi nombre es Jonathan Noguerales Alburquerque y soy un desarrollador Full Stack Web Developer junior 
             que esta en pleno aprendizaje, con ganas de aprender algo nuevo cada dia y asi aumentar los conocimientos obtenidos,

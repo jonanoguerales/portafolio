@@ -4,18 +4,20 @@
   h2 {
     margin-bottom: 0.7rem;
     font-size: xx-large;
-    color: $buttonBlueColor;
   }
+  .black{
+      color: $blackColor;
+    }
+  .white{
+      color: $whiteColor;
+    }
   div {
     height: 0.3rem;
     width: 3rem;
     border-radius: 0.1rem;
   }
-  div .white {
-    background-color: $whiteColor;
-  }
-  div .black {
-    background-color: $blackColor;
+  .sub {
+    background-color: $buttonBlueColor;
   }
 }
 .center {

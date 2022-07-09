@@ -4,16 +4,14 @@ import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import { motion } from "framer-motion";
 import "../css/components/Blog.scss";
 
-function Blog({ image, title, subTitle, variants, animate }) {
+function Blog({ className, title, subTitle, variants, animate }) {
   return (
     <motion.div
       className="blog-container"
       variants={variants}
       animate={animate}
     >
-      <div className="image">
-        <img src={image} alt="Blog" />
-      </div>
+      <div className={className}></div>
       <div className="content">
         <div className="title">
           <h3>{title}</h3>
