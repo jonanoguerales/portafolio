@@ -10,7 +10,7 @@ export default function Skills() {
   const [element, controls] = useScroll();
 
   return (
-    <div className="testimonials-container" id="testimonial" ref={element}>
+    <div className="testimonials-container" id="skills" ref={element}>
       <div className="container">
         <motion.div
           className="title-container"

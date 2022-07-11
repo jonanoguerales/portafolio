@@ -7,6 +7,7 @@ import Skills from "./pages/Skills";
 import Portafolio from "./pages/Portafolio";
 import Footer from "./pages/Footer";
 import { motion } from "framer-motion";
+import { Contact } from "./pages/Contact";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <About />
       <Skills />
       <Portafolio />
+      <Contact />
       <Footer />
     </motion.div>
   );

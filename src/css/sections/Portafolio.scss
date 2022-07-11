@@ -39,10 +39,11 @@
     .container {
       .title-container {
         p {
-          font-size: 1.8rem;
+          font-size: 1rem;
         }
       }
       .blogs {
+        width: 100px;
         grid-template-columns: 1fr;
       }
     }
@@ -56,6 +57,9 @@
         p {
           font-size: 1.8rem;
         }
+        .blogs {
+          grid-template-columns: 1fr;
+        }
       }
     }
   }
@@ -65,7 +69,7 @@
   .blogs-container {
     .container {
       .blogs {
-        gap: 1rem;
+        grid-template-columns: repeat(2, 1fr);
       }
     }
   }
