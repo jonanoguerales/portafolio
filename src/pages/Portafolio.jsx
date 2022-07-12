@@ -29,7 +29,7 @@ function Portafolio() {
             Cada usuario cuenta con su propia página de perfil y opciones donde puede editar su perfil. Cuenta con CRUD,Dasboard para usuarios con rol de admin y gestión de imagenes. El backend, api rest está realizado
             con node, express y axios. Y el fronted con React y distintas librerias."
             href1="https://github.com/jonanoguerales/BlogIn"
-            href2="https://github.com/jonanoguerales/BlogIn"
+            href2="https://blog-in-lmreovpbn-sojo.vercel.app/"
             variants={cardAnimation}
             animate={controls}
           />
