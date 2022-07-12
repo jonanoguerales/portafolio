@@ -1,10 +1,11 @@
 import React from "react";
 import Button from "./Button";
-import { HiOutlineArrowNarrowRight } from "react-icons/hi";
+import { AiFillGithub } from "react-icons/ai";
+import { RiPagesFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import "../css/components/Blog.scss";
 
-function Blog({ className, title, subTitle, variants, animate }) {
+function Blog({ className, href1, href2, title, subTitle, variants, animate }) {
   return (
     <motion.div
       className="blog-container"
@@ -19,11 +20,20 @@ function Blog({ className, title, subTitle, variants, animate }) {
         <div className="subTitle">
           <p>{subTitle}</p>
         </div>
+        <a href={href1} target="_blank">
         <Button
-          content="Read more"
+          content="GitHub"
           color="inverse"
-          icon={<HiOutlineArrowNarrowRight />}
+          icon={<AiFillGithub />}
         />
+        </a>
+        <a href={href2} target="_blank">
+        <Button
+          content="Página"
+          color="inverse"
+          icon={<RiPagesFill />}
+        />
+        </a>
       </div>
     </motion.div>
   );

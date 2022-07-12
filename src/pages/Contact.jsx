@@ -32,7 +32,12 @@ export const Contact = () => {
             >
                 <Title title="Contacto" lineCenter={false} colorFondo="black" />
             </motion.div>
-            <div class="container-contact">
+            <motion.div 
+                class="container-contact" 
+                variants={textAnimation}
+                animate={controls}
+                transition={{ duration: 1 }}
+                >
                 <div class="contact-form">
                     <h4>Enviame un mensaje...</h4>
                     <form class="form-group" ref={form} onSubmit={sendEmail}>
@@ -42,7 +47,7 @@ export const Contact = () => {
                         <Button content="Enviar" type="submit" />
                     </form>
                 </div>
-            </div>
+            </motion.div>
         </div>
     )
 }

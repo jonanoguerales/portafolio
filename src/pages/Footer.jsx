@@ -84,7 +84,7 @@ function Footer() {
               </a>
             </div>
             <div className="icon">
-              <a href="#">
+              <a href="https://www.linkedin.com/in/jonathannogueralesalburquerque" target="_blank">
                 <AiFillLinkedin />
               </a>
             </div>

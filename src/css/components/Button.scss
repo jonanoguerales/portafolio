@@ -1,35 +1,36 @@
 @import "../utils/Colors.scss";
+
+a {
+  text-decoration: none;
+}
+
 button {
   color: white;
   text-transform: uppercase;
   padding: 0.8rem 1rem;
+  margin: 10px;
   border: 0.1rem solid transparent;
   border-radius: 0.25rem;
   font-weight: bolder;
   cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   transition: 0.4s ease-in-out;
+  float: right;
 
-  svg {
-    margin-left: 0.5rem;
-    font-size: large;
+  .a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    svg {
+      margin-left: 0.5rem;
+      font-size: large;
+    }
   }
 }
+
 .blue {
   background-color: $buttonBlueColor;
   transition: 0.4s ease-in-out;
-  &:hover {
-    background-color: white;
-    border: 0.1rem solid $buttonBlueColor;
-    color: $buttonBlueColor;
-  }
-}
 
-.pink {
-  background-color: $buttonBlueColor;
-  transition: 0.4s ease-in-out;
   &:hover {
     background-color: white;
     border: 0.1rem solid $buttonBlueColor;
@@ -42,6 +43,7 @@ button {
   color: $buttonBlueColor;
   border: $buttonBlueColor 0.1rem solid;
   transition: 0.4s ease-in-out;
+
   &:hover {
     background-color: $buttonBlueColor;
     border: 0.1rem solid transparent;
@@ -53,6 +55,7 @@ button {
   button {
     font-size: 1.5rem;
     padding: 1.5rem 1.5rem;
+
     svg {
       font-size: small;
     }
@@ -63,6 +66,7 @@ button {
   button {
     font-size: 1.3rem;
     padding: 1.5rem 1.5rem;
+
     svg {
       font-size: small;
     }

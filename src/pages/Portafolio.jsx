@@ -1,6 +1,5 @@
 import React from "react";
 import Blog from "../components/Blog";
-import Button from "../components/Button";
 import Title from "../components/Title";
 import { useScroll } from "../components/useScroll";
 import { motion } from "framer-motion";
@@ -26,9 +25,11 @@ function Portafolio() {
           <Blog
             className="image1"
             title="Blog Sitio Web"
-            subTitle="When there appears an idea to create a startup, have to take into
-            account all the risks you will face and evalute them thoughtfullu.
-            Also as a rule..."
+            subTitle="Blog para usuarios, con un registro y un login, donde pueden compartir cualquier historia o publicación, cada blog está clasificado por categorias y cada blog puede ser modificado por su propietario.
+            Cada usuario cuenta con su propia página de perfil y opciones donde puede editar su perfil. Cuenta con CRUD,Dasboard para usuarios con rol de admin y gestión de imagenes. El backend, api rest está realizado
+            con node, express y axios. Y el fronted con React y distintas librerias."
+            href1="https://www.instagram.com/"
+            href2="https://www.facebook.com/"
             variants={cardAnimation}
             animate={controls}
           />
@@ -46,13 +47,6 @@ function Portafolio() {
             variants={cardAnimation}
             animate={controls}
           />
-        </div>
-        <div
-          className="button-container"
-          variants={textAnimation}
-          animate={controls}
-        >
-          <Button content="View All" />
         </div>
       </div>
     </div>

@@ -5,6 +5,22 @@ import { useScroll } from "../components/useScroll";
 import { motion } from "framer-motion";
 import "../css/sections/Skills.scss";
 import { textAnimation, cardAnimation } from "../utils/Animations";
+import Image1 from "../img/HTML5.png"
+import Image2 from "../img/CSS3.png"
+import Image3 from "../img/javaScript.png"
+import Image4 from "../img/React.png"
+import Image5 from "../img/nodejs.png"
+import Image6 from "../img/SASS.png"
+import Image7 from "../img/git.png"
+import Image8 from "../img/github.png"
+import Image9 from "../img/Bootstrap-Logo.png"
+import Image10 from "../img/framer motion.png"
+import Image11 from "../img/docker.png"
+import Image12 from "../img/MySQL.png"
+import Image13 from "../img/MongoDB_Logo.svg.png"
+import Image14 from "../img/TypeScript.png"
+import Image15 from "../img/axios.png"
+import Image16 from "../img/express.png"
 
 export default function Skills() {
   const [element, controls] = useScroll();
@@ -25,27 +41,100 @@ export default function Skills() {
         </motion.div>
         <div className="testimonials">
           <Testimonial
-            content="The best on the net! Software development saved my business. I use
-        Software development often. I am really satisfied with my Software
-        Development."
-            name="Trushit Vyas"
-            designation="Co-Founder"
+            image={Image1}
             variants={cardAnimation}
             animate={controls}
+            nombre="HTML5"
           />
           <Testimonial
-            content="Mobile application developer is exactly what out business has been lacing. I have gotten at least 50 times the value from mobile apllication."
-            name="Kishan H. Sheth"
-            designation="Founder & CEO"
+            image={Image2}
             variants={cardAnimation}
             animate={controls}
+            nombre="CSS3"
           />
           <Testimonial
-            content="Logo Design is the next killer app. We've used logo design for the last five years. Best. Product. Ever! Definetly worth the investment"
-            name="Romit Gandhi"
-            designation="Founder"
+            image={Image3}
             variants={cardAnimation}
             animate={controls}
+            nombre="JavaScript"
+          />
+          <Testimonial
+            image={Image4}
+            variants={cardAnimation}
+            animate={controls}
+            nombre="React"
+          />
+          <Testimonial
+            image={Image5}
+            variants={cardAnimation}
+            animate={controls}
+            nombre="Node.js"
+          />
+          <Testimonial
+            image={Image6}
+            variants={cardAnimation}
+            animate={controls}
+            nombre="Sass"
+          />
+          <Testimonial
+            image={Image7}
+            variants={cardAnimation}
+            animate={controls}
+            nombre="Git"
+          />
+          <Testimonial
+            image={Image8}
+            variants={cardAnimation}
+            animate={controls}
+            nombre="GitHub"
+          />
+          <Testimonial
+            image={Image9}
+            variants={cardAnimation}
+            animate={controls}
+            nombre="Bootstrap"
+          />
+          <Testimonial
+            image={Image10}
+            variants={cardAnimation}
+            animate={controls}
+            nombre="Framer Motion "
+          />
+          <Testimonial
+            image={Image11}
+            variants={cardAnimation}
+            animate={controls}
+            nombre="Docker"
+          />
+          <Testimonial
+            image={Image12}
+            variants={cardAnimation}
+            animate={controls}
+            nombre="MySQL"
+          />
+          <Testimonial
+            image={Image13}
+            variants={cardAnimation}
+            animate={controls}
+            nombre="MongoDB"
+          />
+          <Testimonial
+            image={Image14}
+            variants={cardAnimation}
+            animate={controls}
+            nombre="TypeScript"
+          />
+          <Testimonial
+            image={Image15}
+            variants={cardAnimation}
+            animate={controls}
+            nombre="Axios"
+          />
+          <Testimonial
+            image={Image16}
+            variants={cardAnimation}
+            animate={controls}
+            nombre="ExpressJS"
           />
         </div>
       </div>

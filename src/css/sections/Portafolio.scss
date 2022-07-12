@@ -8,28 +8,27 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
     .title-container {
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
+
       .title {
         margin-bottom: 1rem;
       }
+
       p {
         color: $blackColor;
       }
     }
+
     .blogs {
       margin-bottom: 2rem;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 4rem;
-    }
-    .button-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
     }
   }
 }
@@ -42,6 +41,7 @@
           font-size: 1rem;
         }
       }
+
       .blogs {
         width: 100px;
         grid-template-columns: 1fr;
@@ -57,6 +57,7 @@
         p {
           font-size: 1.8rem;
         }
+
         .blogs {
           grid-template-columns: 1fr;
         }

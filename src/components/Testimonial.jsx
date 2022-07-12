@@ -2,21 +2,17 @@ import React from "react";
 import { motion } from "framer-motion";
 import "../css/components/Testimonial.scss";
 
-function Testimonial({ content, name, designation, variants, animate }) {
+function Testimonial({ image, nombre, variants, animate }) {
   return (
     <motion.div
       className="testimonial-container"
       variants={variants}
       animate={animate}
     >
-      <div className="quote">
-        <span>&#10077;</span>
+      <div className="image">
+        <img src={image} alt="Blog" />
       </div>
-      <div className="content">{content}</div>
-      <div className="author">
-        <div className="name">{name}</div>
-        <div className="designation">{designation}</div>
-      </div>
+      <p>{nombre}</p>
     </motion.div>
   );
 }

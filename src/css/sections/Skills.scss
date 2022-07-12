@@ -3,24 +3,17 @@
   background-color: $blackColor;
   .container {
     margin: 0 10%;
-
     padding: 5rem 0;
     .title-container {
       display: flex;
-      justify-content: center;
-      align-items: center;
+      justify-content: center !important;
+      align-items: center !important;
       flex-direction: column;
-      .title {
-        margin-bottom: 1rem;
-      }
-      p {
-        color: $blackColor;
-      }
     }
     .testimonials {
       margin-top: 1.5rem;
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(6, 1fr);
       gap: 3rem;
     }
   }

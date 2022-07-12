@@ -26,7 +26,6 @@
         align-items: center;
         justify-content: center;
         margin: 0.3rem 2rem;
-        color: $buttonBlueColor;
         li {
           a {
             text-decoration: none;
@@ -35,11 +34,8 @@
             &:hover {
               color: $buttonBlueColor;
             }
-            &:focus {
-              color: $buttonBlueColor;
-            }
-            &:active {
-              color: $buttonBlueColor;
+            &:focus{
+              color: red;
             }
           }
           text-transform: uppercase;
