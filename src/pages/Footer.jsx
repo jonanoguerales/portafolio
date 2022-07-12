@@ -2,9 +2,10 @@ import React from "react";
 import BrandName from "../components/BrandName";
 import { useScroll } from "../components/useScroll";
 import { MdEmail } from "react-icons/md";
-import { FaPhoneAlt, FaFacebookF, FaTwitter } from "react-icons/fa";
+import { FaPhoneAlt} from "react-icons/fa";
 import { ImLocation } from "react-icons/im";
-import { AiFillInstagram, AiFillLinkedin, AiOutlineSend } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { motion } from "framer-motion";
 import "../css/sections/Footer.scss";
 import { fromUp, fromDown } from "../utils/Animations";
@@ -74,24 +75,13 @@ function Footer() {
           </div>
           <div className="icons">
             <div className="icon">
-              <a href="#">
-                <FaFacebookF />
-              </a>
-            </div>
-            <div className="icon">
-              <a href="#">
-                <AiFillInstagram />
+              <a href="https://github.com/jonanoguerales" target="_blank">
+                <AiFillGithub />
               </a>
             </div>
             <div className="icon">
               <a href="https://www.linkedin.com/in/jonathannogueralesalburquerque" target="_blank">
                 <AiFillLinkedin />
-              </a>
-            </div>
-            <div className="icon">
-              <a href="#">
-                {" "}
-                <FaTwitter />
               </a>
             </div>
           </div>
