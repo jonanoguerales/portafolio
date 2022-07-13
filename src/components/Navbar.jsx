@@ -13,7 +13,7 @@ export default function Navbar() {
   };
   return (
     <motion.div
-      className={`topLeft navbar ${toggleNavbar === true ? "active" : ""}`}
+      className={`navbar ${toggleNavbar === true ? "active" : ""}`}
       variants={navbarAnimation}
       transition={{ delay: 0.1 }}
     >
