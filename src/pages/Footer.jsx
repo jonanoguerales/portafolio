@@ -2,7 +2,7 @@ import React from "react";
 import BrandName from "../components/BrandName";
 import { useScroll } from "../components/useScroll";
 import { MdEmail } from "react-icons/md";
-import { FaPhoneAlt} from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
 import { ImLocation } from "react-icons/im";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
@@ -23,7 +23,9 @@ function Footer() {
             animate={controls}
             transition={{ duration: 0.5 }}
           >
-            <BrandName isFooter={true} />
+            <div className="logo">
+              <BrandName isFooter={true} />
+            </div>
           </motion.div>
 
           <motion.div

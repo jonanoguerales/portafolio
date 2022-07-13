@@ -21,6 +21,7 @@ import Image13 from "../img/MongoDB_Logo.svg.png"
 import Image14 from "../img/TypeScript.png"
 import Image15 from "../img/axios.png"
 import Image16 from "../img/express.png"
+import Image17 from "../img/styled-components.png"
 
 export default function Skills() {
   const [element, controls] = useScroll();
@@ -135,6 +136,12 @@ export default function Skills() {
             variants={cardAnimation}
             animate={controls}
             nombre="ExpressJS"
+          />
+          <Testimonial
+            image={Image17}
+            variants={cardAnimation}
+            animate={controls}
+            nombre="Styled Components"
           />
         </div>
       </div>

@@ -1,9 +1,9 @@
 @import "../utils/Colors.scss";
 .main-container {
+  width: 100vw;
   background-image: url("../../img/fondo.png");
   background-size: 200%;
   animation: movimiento2 50s infinite linear alternate;
-  
   .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

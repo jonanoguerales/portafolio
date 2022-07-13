@@ -1,5 +1,6 @@
 @import "../utils/Colors.scss";
 .footer-container {
+  width: 100vw;
   background-color: $blackColor;
   color: white;
   min-height: 55vh;
@@ -103,12 +104,15 @@
     }
   }
 }
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (max-width: 360px) {
   .footer-container {
-    .main-container {
-      grid-template-columns: 1fr;
+    .main-container-footer {
+      flex-direction: column;
+      height: 300px;
+      justify-content: space-evenly;
+      padding-top: 1.5rem;
       h3 {
-        font-size: 2.4rem;
+        font-size: 1rem;
       }
       ul {
         margin-bottom: 2rem;
@@ -116,13 +120,16 @@
           font-size: 1.5rem;
         }
       }
+      .news-letter{
+        margin-bottom: 2rem;
+      }
       .touch {
         .touch-section {
           .icon {
-            height: 5rem;
-            width: 5rem;
+            height: 2rem;
+            width: 2rem;
             svg {
-              font-size: 2rem;
+              font-size: 0,5rem;
             }
           }
         }

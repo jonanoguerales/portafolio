@@ -27,7 +27,7 @@ function Portafolio() {
             title="Blog Sitio Web"
             subTitle="Blog para usuarios, con un registro y un login, donde pueden compartir cualquier historia o publicación, cada blog está clasificado por categorias y cada blog puede ser modificado por su propietario.
             Cada usuario cuenta con su propia página de perfil y opciones donde puede editar su perfil. Cuenta con CRUD,Dasboard para usuarios con rol de admin y gestión de imagenes. El backend, api rest está realizado
-            con node, express y axios. Y el fronted con React y distintas librerias."
+            con node, express, axios y base de datos mongoDB. Y el fronted con React y distintas librerias."
             href1="https://github.com/jonanoguerales/BlogIn"
             href2="https://blog-in-lmreovpbn-sojo.vercel.app/"
             variants={cardAnimation}
