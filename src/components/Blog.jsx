@@ -2,16 +2,11 @@ import React from "react";
 import Button from "./Button";
 import { AiFillGithub } from "react-icons/ai";
 import { RiPagesFill } from "react-icons/ri";
-import { motion } from "framer-motion";
 import "../css/components/Blog.scss";
 
-function Blog({ className, href1, href2, title, subTitle, variants, animate }) {
+function Blog({ className, href1, href2, title, subTitle }) {
   return (
-    <motion.div
-      className="blog-container"
-      variants={variants}
-      animate={animate}
-    >
+    <div className="blog-container">
       <div className={className}></div>
       <div className="content">
         <div className="title">
@@ -35,7 +30,7 @@ function Blog({ className, href1, href2, title, subTitle, variants, animate }) {
         />
         </a>
       </div>
-    </motion.div>
+    </div>
   );
 }
 

@@ -38,7 +38,6 @@ export default function Skills() {
           }}
         >
           <Title title="Skills" lineCenter={true} colorFondo="white"/>
-          <p>See what our clients are saying about us.</p>
         </motion.div>
         <div className="testimonials">
           <Testimonial

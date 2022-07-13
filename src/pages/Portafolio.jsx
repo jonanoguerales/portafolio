@@ -21,7 +21,11 @@ function Portafolio() {
           <Title title="Portafolio" lineCenter={false} colorFondo="black"/>
           <p>Proyectos realizados</p>
         </motion.div>
-        <div className="blogs">
+        <motion.div 
+          className="blogs"
+          variants={textAnimation}
+          animate={controls}
+          >
           <Blog
             className="image1"
             title="Blog Sitio Web"
@@ -47,7 +51,7 @@ function Portafolio() {
             variants={cardAnimation}
             animate={controls}
           />
-        </div>
+        </motion.div>
       </div>
     </div>
   );

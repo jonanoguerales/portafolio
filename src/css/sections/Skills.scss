@@ -1,15 +1,19 @@
 @import "../utils/Colors.scss";
+
 .testimonials-container {
   background-color: $blackColor;
+
   .container {
-    margin-left:10%;
+    margin-left: 10%;
     padding: 5rem 0;
+
     .title-container {
       display: flex;
       justify-content: center !important;
       align-items: center !important;
       flex-direction: column;
     }
+
     .testimonials {
       margin-top: 1.5rem;
       display: grid;
@@ -18,28 +22,41 @@
     }
   }
 }
-
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (max-width: 319px) {
   .testimonials-container {
     .container {
-      .title-container {
-        p {
-          font-size: 1.7rem;
-        }
-      }
       .testimonials {
-        grid-template-columns: 1fr;
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
       }
     }
   }
 }
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .testimonials-container {
+    .container {
+      padding: 2rem 0;
+      .testimonials {
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+      }
+    }
+  }
+}
+
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .testimonials-container {
     .container {
-      .title-container {
-        p {
-          font-size: 1.7rem;
-        }
+      padding: 2rem 0;
+      .testimonials {
+        margin-top: 1.5rem;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 3rem;
       }
     }
   }
