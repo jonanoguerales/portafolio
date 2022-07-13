@@ -30,7 +30,7 @@ function About() {
           <p>
             Me encanta colaborar, trabajar en equipo y sacar los proyectos adelante.
           </p>
-          <a href="pdf" target="_blank"><Button content="ver CV" /></a>
+          <a href="pdf" target="_blank"><div className="botonCV"><Button content="ver CV" /></div></a>
           <div className="icons">
             <div className="icon">
               <a href="https://www.linkedin.com/in/jonathannogueralesalburquerque" target="_blank">

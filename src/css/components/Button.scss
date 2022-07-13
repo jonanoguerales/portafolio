@@ -51,33 +51,3 @@ button {
     color: white;
   }
 }
-
-@media screen and (min-width: 320px) and (max-width: 480px) {
-  button {
-    font-size: 1.5rem;
-    padding: 1.5rem 1.5rem;
-
-    svg {
-      font-size: small;
-    }
-  }
-}
-
-@media screen and (min-width: 481px) and (max-width: 768px) {
-  button {
-    font-size: 1.3rem;
-    padding: 1.5rem 1.5rem;
-
-    svg {
-      font-size: small;
-    }
-  }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  button {
-    font-size: 0.7rem;
-    padding: 0.8rem;
-    white-space: nowrap;
-  }
-}

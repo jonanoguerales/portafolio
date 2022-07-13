@@ -1,9 +1,8 @@
 @import "../utils/Colors.scss";
 .testimonials-container {
-  width: 100vw;
   background-color: $blackColor;
   .container {
-    margin: 0 10%;
+    margin-left:10%;
     padding: 5rem 0;
     .title-container {
       display: flex;

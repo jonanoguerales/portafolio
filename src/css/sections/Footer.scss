@@ -1,12 +1,10 @@
 @import "../utils/Colors.scss";
 .footer-container {
-  width: 100vw;
   background-color: $blackColor;
   color: white;
   min-height: 55vh;
   height: fit-content;
   padding: 2rem 0;
-  
   .main-container-footer {
     margin: 0 5%;
     padding-top: 2.5rem;
