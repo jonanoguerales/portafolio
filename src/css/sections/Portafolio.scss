@@ -39,6 +39,9 @@
 @media screen and (max-width: 500px) {
   .blogs-container {
     .container {
+      .title-container {
+        opacity: 1 !important;
+      }
       .blogs {
         grid-template-columns: 1fr;
         opacity: 1 !important;
