@@ -144,6 +144,10 @@
       border-top-right-radius: 50px;
   
     }
+    a{
+      display:block;
+      width: 100%;
+    }
     a:hover{
       color: white;
     }

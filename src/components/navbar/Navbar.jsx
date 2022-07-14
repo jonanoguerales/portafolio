@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import BrandName from "../BrandName";
 import "./Navbar.css"
 
 const Navbar = () => {
 
+  const $miCheckbox = document.querySelector("#menu__toggle");
+
+  const handleClicked = () => {
+    $miCheckbox.checked = false;
+  }
   return (
     <div className="top">
       <div className="topLeft">
@@ -16,21 +21,21 @@ const Navbar = () => {
         </label>
         <ul className="topList menu__box">
           <li className="topListItem menu__item">
-            <a href="#inicio">Inicio</a>
+            <a onClick={handleClicked} href="#inicio">Inicio</a>
           </li>
           <li className="topListItem menu__item">
-            <a href="#acerca">Acerca</a>
-          </li>
-
-          <li className="topListItem menu__item">
-            <a href="#skills">Skills</a>
+            <a onClick={handleClicked} href="#acerca">Acerca</a>
           </li>
 
           <li className="topListItem menu__item">
-            <a href="#portafolio">Portafolio</a>
+            <a onClick={handleClicked} href="#skills">Skills</a>
+          </li>
+
+          <li className="topListItem menu__item">
+            <a onClick={handleClicked} href="#portafolio">Portafolio</a>
           </li>
           <li className="topListItem menu__item">
-            <a href="#contacto">Contacto</a>
+            <a onClick={handleClicked}href="#contacto">Contacto</a>
           </li>
         </ul>
       </div>
