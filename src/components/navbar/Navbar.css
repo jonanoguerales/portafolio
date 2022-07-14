@@ -133,17 +133,19 @@
       padding: 10px 0px;
       text-decoration: none;
       transition-duration: 0.25s;
-      color: #ffffff;
       text-align: center;
       width: 170px;
     }
   
     .menu__item:hover{
-      background-color: #410ba5!important;
+      background-color: #410ba5;
       width: 170px;
       border-bottom-right-radius: 50px;
       border-top-right-radius: 50px;
   
+    }
+    a:hover{
+      color: white;
     }
   
     .menu__item {
