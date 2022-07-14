@@ -53,7 +53,7 @@ function Portafolio() {
             subTitle="Pequeño proyecto de una lista de deseos con un CRUD, un login y un registro. 
             Esta creado con PHP y MySQL."
             href1="https://github.com/jonanoguerales/Wishlist-PHP-y-MySQL"
-            href2=""
+            href2="https://github.com/jonanoguerales/Wishlist-PHP-y-MySQL"
             variants={cardAnimation}
             animate={controls}
           />

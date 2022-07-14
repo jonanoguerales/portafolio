@@ -10,18 +10,19 @@ import Image2 from "../img/CSS3.png"
 import Image3 from "../img/javaScript.png"
 import Image4 from "../img/React.png"
 import Image5 from "../img/nodejs.png"
-import Image6 from "../img/SASS.png"
+import Image6 from "../img/PHP.png"
 import Image7 from "../img/git.png"
 import Image8 from "../img/github.png"
-import Image9 from "../img/Bootstrap-Logo.png"
-import Image10 from "../img/framer motion.png"
-import Image11 from "../img/docker.png"
-import Image12 from "../img/MySQL.png"
-import Image13 from "../img/MongoDB_Logo.svg.png"
-import Image14 from "../img/TypeScript.png"
-import Image15 from "../img/axios.png"
-import Image16 from "../img/express.png"
-import Image17 from "../img/styled-components.png"
+import Image9 from "../img/SASS.png"
+import Image10 from "../img/Bootstrap-Logo.png"
+import Image11 from "../img/framer motion.png"
+import Image12 from "../img/docker.png"
+import Image13 from "../img/MySQL.png"
+import Image14 from "../img/MongoDB_Logo.svg.png"
+import Image15 from "../img/TypeScript.png"
+import Image16 from "../img/axios.png"
+import Image17 from "../img/express.png"
+import Image18 from "../img/styled-components.png"
 
 export default function Skills() {
   const [element, controls] = useScroll();
@@ -138,6 +139,12 @@ export default function Skills() {
           />
           <Testimonial
             image={Image17}
+            variants={cardAnimation}
+            animate={controls}
+            nombre="Styled Components"
+          />
+          <Testimonial
+            image={Image18}
             variants={cardAnimation}
             animate={controls}
             nombre="Styled Components"
