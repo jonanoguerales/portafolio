@@ -21,21 +21,21 @@ const Navbar = () => {
         </label>
         <ul className="topList menu__box">
           <li className="topListItem menu__item">
-            <a onClick={handleClicked} href="#inicio">Inicio</a>
+            <a onClick={handleClicked} className="enlace" href="#inicio">Inicio</a>
           </li>
           <li className="topListItem menu__item">
-            <a onClick={handleClicked} href="#acerca">Acerca</a>
-          </li>
-
-          <li className="topListItem menu__item">
-            <a onClick={handleClicked} href="#skills">Skills</a>
+            <a className="enlace" onClick={handleClicked} href="#acerca">Acerca</a>
           </li>
 
           <li className="topListItem menu__item">
-            <a onClick={handleClicked} href="#portafolio">Portafolio</a>
+            <a className="enlace" onClick={handleClicked} href="#skills">Skills</a>
+          </li>
+
+          <li className="topListItem menu__item">
+            <a className="enlace" onClick={handleClicked} href="#portafolio">Portafolio</a>
           </li>
           <li className="topListItem menu__item">
-            <a onClick={handleClicked}href="#contacto">Contacto</a>
+            <a className="enlace" onClick={handleClicked}href="#contacto">Contacto</a>
           </li>
         </ul>
       </div>
