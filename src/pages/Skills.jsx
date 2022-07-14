@@ -75,7 +75,7 @@ export default function Skills() {
             image={Image6}
             variants={cardAnimation}
             animate={controls}
-            nombre="Sass"
+            nombre="PHP"
           />
           <Testimonial
             image={Image7}
@@ -93,55 +93,55 @@ export default function Skills() {
             image={Image9}
             variants={cardAnimation}
             animate={controls}
-            nombre="Bootstrap"
+            nombre="Sass"
           />
           <Testimonial
             image={Image10}
             variants={cardAnimation}
             animate={controls}
-            nombre="Framer Motion "
+            nombre="Bootstrap"
           />
           <Testimonial
             image={Image11}
             variants={cardAnimation}
             animate={controls}
-            nombre="Docker"
+            nombre="Framer Motion"
           />
           <Testimonial
             image={Image12}
             variants={cardAnimation}
             animate={controls}
-            nombre="MySQL"
+            nombre="Docker"
           />
           <Testimonial
             image={Image13}
             variants={cardAnimation}
             animate={controls}
-            nombre="MongoDB"
+            nombre="MySQL"
           />
           <Testimonial
             image={Image14}
             variants={cardAnimation}
             animate={controls}
-            nombre="TypeScript"
+            nombre="MongoDB"
           />
           <Testimonial
             image={Image15}
             variants={cardAnimation}
             animate={controls}
-            nombre="Axios"
+            nombre="TypeScript"
           />
           <Testimonial
             image={Image16}
             variants={cardAnimation}
             animate={controls}
-            nombre="ExpressJS"
+            nombre="Axios"
           />
           <Testimonial
             image={Image17}
             variants={cardAnimation}
             animate={controls}
-            nombre="Styled Components"
+            nombre="ExpressJS"
           />
           <Testimonial
             image={Image18}
