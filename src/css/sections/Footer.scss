@@ -102,13 +102,14 @@
     }
   }
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 480px) {
   .footer-container {
     .main-container-footer {
       flex-direction: column;
       height: 300px;
       justify-content: space-evenly;
       padding-top: 1.5rem;
+      margin-bottom: 1rem;
       h3 {
         font-size: 1rem;
       }
@@ -119,7 +120,7 @@
         }
       }
       .news-letter{
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
       }
       .touch {
         .touch-section {
@@ -150,7 +151,6 @@
         }
       }
       .icons {
-        margin-bottom: 1rem;
         .icon {
           height: 2rem;
           width: 2rem;
@@ -163,9 +163,8 @@
     }
   }
 }
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 1110px) {
   .footer-container {
-    min-height: 30vh;
     .main-container {
       ul {
         margin-bottom: 2rem;
@@ -208,7 +207,8 @@
         }
       }
       .icons {
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
+        margin-top:1rem;
         .icon {
           height: 2rem;
           width: 2rem;
@@ -219,11 +219,5 @@
         }
       }
     }
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .footer-container {
-    min-height: 30vh;
   }
 }
