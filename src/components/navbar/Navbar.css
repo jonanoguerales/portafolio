@@ -15,7 +15,7 @@
     margin: 0;
     padding: 0;
   }
-  a{
+  .enlace{
     color: #ffffff;
   }
   
@@ -46,7 +46,7 @@
     width: max-content;
   }
   
-  a:hover {
+  .enlace:hover {
     color: #410ba5;
   }
   
@@ -144,11 +144,11 @@
       border-top-right-radius: 50px;
   
     }
-    a{
+    .enlace{
       display:block;
-      width: 100%;
+      width: 90%;
     }
-    a:hover{
+    .enlace:hover{
       color: white;
     }
   
