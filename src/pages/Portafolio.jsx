@@ -42,13 +42,18 @@ function Portafolio() {
             title="Portafolio CV"
             subTitle="Portafolio para representar en él, tu CV, sobre tí, tus conocimientos, tus proyectos y un apartado de contacto.
             Esta creado con react, node.js, sass y framer motion."
+            href1="https://github.com/jonanoguerales/portafolio"
+            href2="https://portafoliojonathannoguerales.vercel.app/"
             variants={cardAnimation}
             animate={controls}
           />
           <Blog
             className="image3"
-            title="How to Build a Strong Remote Work Culture"
-            subTitle="Kishan Sheth is the compnay VP of Talent Operations responsible for matching some of the world's greatest freelancers with companies who..."
+            title="Wishlist"
+            subTitle="Pequeño proyecto de una lista de deseos con un CRUD, un login y un registro. 
+            Esta creado con PHP y MySQL."
+            href1="https://github.com/jonanoguerales/Wishlist-PHP-y-MySQL"
+            href2=""
             variants={cardAnimation}
             animate={controls}
           />

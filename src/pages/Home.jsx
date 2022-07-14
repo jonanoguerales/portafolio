@@ -2,7 +2,7 @@ import React from "react";
 import { useScroll } from "../components/useScroll";
 import { motion } from "framer-motion";
 import Perfil from "../img/perfil.jpg";
-import { headerAnimation, imageAnimation, list, spanVariants, item } from "../utils/Animations";
+import { headerAnimation, imageAnimation, list, item } from "../utils/Animations";
 import "../css/sections/Home.scss";
 
 export default function Home() {
