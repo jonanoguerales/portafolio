@@ -65,6 +65,19 @@
   }
 }
 
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .blog-container {
+    .content {
+      .subTitle {
+        p {
+          color: $blackColor;
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 1366px) {
   .blog-container {
     .image1 {

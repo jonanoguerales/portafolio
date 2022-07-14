@@ -23,7 +23,7 @@ export const Contact = () => {
             });
     };
     return (
-        <div class="contact-section" id="contacto" ref={element}>
+        <div className="contact-section" id="contacto" ref={element}>
             <motion.div
                 className="title-container"
                 variants={textAnimation}
@@ -33,16 +33,16 @@ export const Contact = () => {
                 <Title title="Contacto" lineCenter={false} colorFondo="black" />
             </motion.div>
             <motion.div 
-                class="container-contact" 
+                className="container-contact" 
                 variants={textAnimation}
                 animate={controls}
                 transition={{ duration: 1 }}
                 >
-                <div class="contact-form">
+                <div className="contact-form">
                     <h4>Enviame un mensaje...</h4>
-                    <form class="form-group" ref={form} onSubmit={sendEmail}>
-                        <input type="text" placeholder="Nombre" class="input" />
-                        <input type="email" placeholder="Email" class="input" />
+                    <form className="form-group" ref={form} onSubmit={sendEmail}>
+                        <input type="text" placeholder="Nombre" className="input" />
+                        <input type="email" placeholder="Email" className="input" />
                         <textarea name="message" placeholder="Escribe tu mensaje aqui..."></textarea>
                         <Button content="Enviar" type="submit" />
                     </form>
