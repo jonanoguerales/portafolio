@@ -39,8 +39,9 @@ function Portafolio() {
           />
           <Blog
             className="image2"
-            title="A Day in the life on an Engineering Manager"
-            subTitle="During the eight years I spent as an engineering manager, I regularly tracked how I spent my time. As a startup engineering manager, I was ... "
+            title="Portafolio CV"
+            subTitle="Portafolio para representar en él, tu CV, sobre tí, tus conocimientos, tus proyectos y un apartado de contacto.
+            Esta creado con react, node.js, sass y framer motion."
             variants={cardAnimation}
             animate={controls}
           />
