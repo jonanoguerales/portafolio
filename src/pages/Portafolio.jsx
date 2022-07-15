@@ -29,9 +29,9 @@ function Portafolio() {
           <Blog
             className="image1"
             title="Blog Sitio Web"
-            subTitle="Blog para usuarios, con un registro y un login, donde pueden compartir cualquier historia o publicación, cada blog está clasificado por categorias y cada blog puede ser modificado por su propietario.
-            Cada usuario cuenta con su propia página de perfil y opciones donde puede editar su perfil. Cuenta con CRUD,Dasboard para usuarios con rol de admin y gestión de imagenes. El backend, api rest está realizado
-            con node, express, axios y base de datos mongoDB. Y el fronted con React y distintas librerias."
+            subTitle="Blog para usuarios, con un registro y un login, donde pueden compartir cualquier historia o publicación, cada blog está clasificado por categorías y cada blog puede ser modificado por su propietario.
+            Cada usuario cuenta con su propia página de perfil y opciones donde puede editar su perfil. Cuenta con CRUD,Dasboard para usuarios con rol de admin y gestión de imágenes. El backend, api rest está realizado
+            con node, express, axios y base de datos mongoDB. Y el fronted con React y distintas librerías."
             href1="https://github.com/jonanoguerales/BlogIn"
             href2="https://blog-in-lmreovpbn-sojo.vercel.app/"
             variants={cardAnimation}
@@ -41,7 +41,7 @@ function Portafolio() {
             className="image2"
             title="Portafolio CV"
             subTitle="Portafolio para representar en él, tu CV, sobre tí, tus conocimientos, tus proyectos y un apartado de contacto.
-            Esta creado con react, node.js, sass y framer motion."
+            Está creado con react, node.js, sass y framer motion."
             href1="https://github.com/jonanoguerales/portafolio"
             href2="https://portafoliojonathannoguerales.vercel.app/"
             variants={cardAnimation}
@@ -51,7 +51,7 @@ function Portafolio() {
             className="image3"
             title="Wishlist"
             subTitle="Pequeño proyecto de una lista de deseos con un CRUD, un login y un registro. 
-            Esta creado con PHP y MySQL."
+            Está creado con PHP y MySQL."
             href1="https://github.com/jonanoguerales/Wishlist-PHP-y-MySQL"
             href2="https://github.com/jonanoguerales/Wishlist-PHP-y-MySQL"
             variants={cardAnimation}

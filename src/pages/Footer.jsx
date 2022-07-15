@@ -51,7 +51,7 @@ function Footer() {
                 <FaPhoneAlt />
               </div>
               <div className="detail">
-                <div className="detail-name">Telefono</div>
+                <div className="detail-name">Teléfono</div>
                 <div className="detail-content">
                   <p>644573199</p>
                 </div>

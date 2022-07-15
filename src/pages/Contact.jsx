@@ -39,11 +39,11 @@ export const Contact = () => {
                 transition={{ duration: 1 }}
                 >
                 <div className="contact-form">
-                    <h4>Enviame un mensaje...</h4>
+                    <h4>Envíame un mensaje...</h4>
                     <form className="form-group" ref={form} onSubmit={sendEmail}>
                         <input type="text" placeholder="Nombre" className="input" />
                         <input type="email" placeholder="Email" className="input" />
-                        <textarea name="message" placeholder="Escribe tu mensaje aqui..."></textarea>
+                        <textarea name="message" placeholder="Escribe tu mensaje aquí..."></textarea>
                         <Button content="Enviar" type="submit" />
                     </form>
                 </div>

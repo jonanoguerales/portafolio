@@ -24,8 +24,7 @@ function About() {
           <Title title="Acerca de mí" colorFondo="black" />
           <p>
             Hola, mi nombre es Jonathan Noguerales Alburquerque y soy un desarrollador Full Stack Web Developer junior
-            que esta en pleno aprendizaje, con ganas de aprender algo nuevo cada dia y asi aumentar los conocimientos obtenidos,
-            o bien, aprender algo nuevo.
+            que está en pleno aprendizaje, con ganas de aprender algo nuevo cada día y así aumentar los conocimientos obtenidos.
           </p>
           <p>
             Me encanta colaborar, trabajar en equipo y sacar los proyectos adelante.
