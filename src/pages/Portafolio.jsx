@@ -33,7 +33,7 @@ function Portafolio() {
             Cada usuario cuenta con su propia página de perfil y opciones donde puede editar su perfil. Cuenta con CRUD,Dasboard para usuarios con rol de admin y gestión de imágenes. El backend, api rest está realizado
             con node, express, distintas librerías y base de datos mongoDB. Y el fronted con React, Axios para las llamadas a la api y distintas librerías."
             href1="https://github.com/jonanoguerales/BlogIn"
-            href2="https://blog-in-lmreovpbn-sojo.vercel.app/"
+            href2="https://blog-in.vercel.app"
             variants={cardAnimation}
             animate={controls}
           />
@@ -43,7 +43,7 @@ function Portafolio() {
             subTitle="Portafolio para representar en él, tu CV, sobre tí, tus conocimientos, tus proyectos y un apartado de contacto.
             Está creado con react, node.js, sass y framer motion."
             href1="https://github.com/jonanoguerales/portafolio"
-            href2="https://portafoliojonathannoguerales.vercel.app/"
+            href2="https://portafoliojonathannoguerales.vercel.app"
             variants={cardAnimation}
             animate={controls}
           />
