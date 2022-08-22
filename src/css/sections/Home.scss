@@ -1,4 +1,5 @@
 @import "../utils/Colors.scss";
+
 .main-container {
   background-image: url("../../img/fondo.png");
   background-size: cover;
@@ -6,6 +7,7 @@
   animation: movimiento2 50s infinite linear alternate;
   width: 100vw;
   height: 100vh;
+
   .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -16,14 +18,20 @@
     height: 100%;
 
     .content {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      align-items: flex-start;
+      justify-content: center;
+
       h1 {
+        margin: 0 10%;
         font-size: 5rem;
         color: #ffffff;
-        margin: 0 10%;
-        width: 100%;
-    height: 100%;
       }
     }
+
     .image {
       img {
         box-shadow: #111111 0px 10px 10px 10px, #410ba5 0px 10px 20px 10px;
@@ -35,23 +43,30 @@
     }
   }
 }
+
 @keyframes movimiento2 {
-  from{
+  from {
     background-position: bottom left;
-  }to{
+  }
+
+  to {
     background-position: top right;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 400px) {
   .main-container {
     .container {
       grid-template-columns: 1fr;
+
       .content {
+        justify-content: flex-end;
+
         h1 {
           font-size: 2rem;
         }
       }
+
       .image {
         img {
           height: 10rem;
@@ -62,23 +77,15 @@
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 400px) and (max-width: 768px) {
   .main-container {
     .container {
       grid-template-columns: 1fr;
 
       .content {
+        justify-content: flex-end;
         h1 {
           font-size: 3rem;
-          margin-right: 2rem;
-          margin-left: 2rem;
-        }
-      }
-      .image {
-        margin: 10% 20% 20% 20%;
-        img {
-          width: 200px;
-          height: 200px;
         }
       }
     }
@@ -88,26 +95,11 @@
 @media screen and (min-width: 769px) and (max-width: 1144px) {
   .main-container {
     .container {
-      .image {
-        img {
-          width: 200px;
-          height: 200px;
-        }
-      }
-    }
-  }
-}
-
-@media screen and (max-height: 960px) {
-  .main-container {
-    .container {
       .content {
         h1 {
-          font-size: 3rem;
+          font-size: 3.5rem;
         }
       }
-
     }
   }
 }
-
