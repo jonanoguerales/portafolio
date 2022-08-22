@@ -4,25 +4,25 @@
   background-size: cover;
   background-repeat: no-repeat;
   animation: movimiento2 50s infinite linear alternate;
+  width: 100vw;
+  height: 100vh;
   .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 100vw;
-    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
     margin: 0 10%;
+    width: 100%;
+    height: 100%;
 
     .content {
-      margin-top: 15rem;
-      margin-right: 3rem;
       h1 {
         font-size: 5rem;
         color: #ffffff;
       }
     }
     .image {
-      margin-top: 20rem;
-      margin-right: 3rem;
-
       img {
         box-shadow: #111111 0px 10px 10px 10px, #410ba5 0px 10px 20px 10px;
         border-radius: 50%;
@@ -45,15 +45,11 @@
     .container {
       grid-template-columns: 1fr;
       .content {
-        margin-top: 30%;
-        margin-right: 3rem;
         h1 {
           font-size: 2rem;
         }
       }
       .image {
-        margin-left: 2rem;
-        margin: 10% 20% 20% 20%;
         img {
           height: 10rem;
           width: 10rem;
@@ -86,7 +82,7 @@
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1144px) {
+@media screen and (min-width: 769px) and (max-width: 1144px) and (min-height: 500px) and (max-height: 800px) {
   .main-container {
     padding-bottom: 3rem;
     .container {
@@ -97,6 +93,26 @@
       }
       .image {
         margin-top: 20rem;
+        img {
+          width: 200px;
+          height: 200px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-height: 800px) {
+  .main-container {
+    padding-bottom: 3rem;
+    .container {
+      .content {
+        h1 {
+          font-size: 4rem;
+        }
+      }
+      .image {
+        align-items: center;
         img {
           width: 200px;
           height: 200px;
