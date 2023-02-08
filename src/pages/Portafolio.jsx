@@ -30,7 +30,7 @@ function Portafolio() {
             className="image1"
             title="Blog Sitio Web"
             subTitle="Blog para usuarios, con un registro y un login, donde pueden compartir cualquier historia o publicación, cada blog está clasificado por categorías y cada blog puede ser modificado por su propietario.
-            Cada usuario cuenta con su propia página de perfil y opciones donde puede editar su perfil. Cuenta con CRUD,Dasboard para usuarios con rol de admin y gestión de imágenes. El backend, api rest está realizado
+            Cada usuario cuenta con su propia página de perfil y opciones donde puede editar su perfil. Cuenta con CRUD y Dashboard para usuarios con rol de admin y gestión de imágenes. El backend, api rest está realizado
             con node, express, distintas librerías y base de datos mongoDB. Y el fronted con React, Axios para las llamadas a la api y distintas librerías."
             href1="https://github.com/jonanoguerales/BlogIn"
             href2="https://blog-in.vercel.app"
