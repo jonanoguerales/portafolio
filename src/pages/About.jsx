@@ -23,11 +23,10 @@ function About() {
         >
           <Title title="Acerca de mí" colorFondo="black" />
           <p>
-            Hola, mi nombre es Jonathan Noguerales Alburquerque y soy un desarrollador Full Stack Web Developer junior
-            que está en pleno aprendizaje, con ganas de aprender algo nuevo cada día y así aumentar los conocimientos obtenidos.
-          </p>
-          <p>
-            Me encanta colaborar, trabajar en equipo y sacar los proyectos adelante.
+          Hola, mi nombre es Jonathan Noguerales Alburquerque y soy un desarrollador Full Stack Web Developer que está en pleno aprendizaje, con ganas de aprender algo nuevo cada día y desarrollarme profesionalmente.
+          Me considero una persona autodidacta, con entusiasmo y pasión en lo que hago, con ganas de superarme diariamente.
+          Me encantaría colaborar y trabajar en un gran equipo, en el cual poder aportar cosas nuevas y sacar proyectos adelante.
+          Estoy seguro de que me integraré bien en poco tiempo.
           </p>
           <a href="pdf" target="_blank"><div className="botonCV"><Button content="ver CV" /></div></a>
           <div className="icons">
