@@ -28,6 +28,12 @@ function About() {
           Me encantaría colaborar y trabajar en un gran equipo, en el cual poder aportar cosas nuevas y sacar proyectos adelante.
           Estoy seguro de que me integraré bien en poco tiempo.
           </p>
+          <p>
+          Me encantaría colaborar y trabajar en un gran equipo, en el cual poder aportar cosas nuevas y sacar proyectos adelante.
+          </p>
+          <p>
+          Estoy seguro de que me integraré bien en poco tiempo.
+          </p>
           <a href="pdf" target="_blank"><div className="botonCV"><Button content="ver CV" /></div></a>
           <div className="icons">
             <div className="icon">
