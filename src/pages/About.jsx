@@ -23,18 +23,18 @@ function About() {
         >
           <Title title="Acerca de mí" colorFondo="black" />
           <p>
-          Hola, mi nombre es Jonathan Noguerales Alburquerque y soy un desarrollador Full Stack Web Developer que está en pleno aprendizaje, con ganas de aprender algo nuevo cada día y desarrollarme profesionalmente.
-          Me considero una persona autodidacta, con entusiasmo y pasión en lo que hago, con ganas de superarme diariamente.
-          Me encantaría colaborar y trabajar en un gran equipo, en el cual poder aportar cosas nuevas y sacar proyectos adelante.
-          Estoy seguro de que me integraré bien en poco tiempo.
+          Hola, soy Jonathan Noguerales Alburquerque, un desarrollador Full Stack en constante aprendizaje y crecimiento profesional. 
+          Me caracterizo por ser autodidacta, apasionado y entusiasta en mi trabajo, siempre buscando superarme día a día.
           </p>
+          <br/>
           <p>
-          Me encantaría colaborar y trabajar en un gran equipo, en el cual poder aportar cosas nuevas y sacar proyectos adelante.
+          Me encantaría formar parte de un equipo dinámico donde pueda contribuir con nuevas ideas y llevar proyectos hacia adelante. 
           </p>
+          <br/>
           <p>
-          Estoy seguro de que me integraré bien en poco tiempo.
+          Estoy seguro de que podré integrarme rápidamente y aportar valor desde el primer día.
           </p>
-          <a href="pdf" target="_blank"><div className="botonCV"><Button content="ver CV" /></div></a>
+          <a href="pdf" target="_blank"><div className="botonCV"><Button content="ver CV"  style={{margin: '10px 0'}}/></div></a>
           <div className="icons">
             <div className="icon">
               <a href="https://www.linkedin.com/in/jonathannogueralesalburquerque" target="_blank">
