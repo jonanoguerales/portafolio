@@ -15,19 +15,11 @@ function Blog({ className, href1, href2, title, subTitle }) {
         <div className="subTitle">
           <p>{subTitle}</p>
         </div>
-        <a href={href1} target="_blank">
-        <Button
-          content="GitHub"
-          color="inverse"
-          icon={<AiFillGithub />}
-        />
+        <a href={href1} target="_blank" rel="noreferrer">
+          <Button content="GitHub" color="inverse" icon={<AiFillGithub />} />
         </a>
-        <a href={href2} target="_blank">
-        <Button
-          content="Página"
-          color="inverse"
-          icon={<RiPagesFill />}
-        />
+        <a href={href2} target="_blank" rel="noreferrer">
+          <Button content="Página" color="inverse" icon={<RiPagesFill />} />
         </a>
       </div>
     </div>

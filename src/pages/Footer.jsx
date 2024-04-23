@@ -4,8 +4,7 @@ import { useScroll } from "../components/useScroll";
 import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import { ImLocation } from "react-icons/im";
-import { AiFillLinkedin } from "react-icons/ai";
-import { AiFillGithub } from "react-icons/ai";
+import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { motion } from "framer-motion";
 import "../css/sections/Footer.scss";
 import { fromUp, fromDown } from "../utils/Animations";
@@ -77,12 +76,20 @@ function Footer() {
           </div>
           <div className="icons">
             <div className="icon">
-              <a href="https://github.com/jonanoguerales" target="_blank">
+              <a
+                href="https://github.com/jonanoguerales"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <AiFillGithub />
               </a>
             </div>
             <div className="icon">
-              <a href="https://www.linkedin.com/in/jonathannogueralesalburquerque" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/jonathannogueralesalburquerque"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <AiFillLinkedin />
               </a>
             </div>
