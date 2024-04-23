@@ -1,8 +1,13 @@
 import React from "react";
 import { useScroll } from "../components/useScroll";
 import { motion } from "framer-motion";
-import Perfil from "../img/perfil.jpg";
-import { headerAnimation, imageAnimation, list, item } from "../utils/Animations";
+import Perfil from "../img/perfil.webp";
+import {
+  headerAnimation,
+  imageAnimation,
+  list,
+  item,
+} from "../utils/Animations";
 import "../css/sections/Home.scss";
 
 export default function Home() {
@@ -10,7 +15,7 @@ export default function Home() {
 
   const text1 = "¡Hola!";
   const text2 = "Soy Jonathan Noguerales Albuquerque";
-  const text3 = "FullStack Developer"
+  const text3 = "FullStack Developer";
 
   return (
     <div className="main-container" ref={element} id="inicio">
@@ -23,29 +28,23 @@ export default function Home() {
         >
           <motion.h1 variants={list} initial="hidden" animate="visible">
             {text1.split("").map((Letter, id) => (
-                <motion.span variants={item}>
-                  <span key={id}>
-                    {Letter}
-                  </span>
-                </motion.span>
+              <motion.span variants={item}>
+                <span key={id}>{Letter}</span>
+              </motion.span>
             ))}
           </motion.h1>
           <motion.h1 variants={list} initial="hidden" animate="visible">
             {text2.split("").map((Letter, id) => (
-                <motion.span variants={item}>
-                  <span key={id}>
-                    {Letter}
-                  </span>
-                </motion.span>
+              <motion.span variants={item}>
+                <span key={id}>{Letter}</span>
+              </motion.span>
             ))}
           </motion.h1>
           <motion.h1 variants={list} initial="hidden" animate="visible">
             {text3.split("").map((Letter, id) => (
-                <motion.span variants={item}>
-                  <span key={id}>
-                    {Letter}
-                  </span>
-                </motion.span>
+              <motion.span variants={item}>
+                <span key={id}>{Letter}</span>
+              </motion.span>
             ))}
           </motion.h1>
         </motion.div>
@@ -57,7 +56,7 @@ export default function Home() {
         >
           <img src={Perfil} alt="Imagen Principal" />
         </motion.div>
-      </div >
-    </div >
+      </div>
+    </div>
   );
 }
