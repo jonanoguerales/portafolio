@@ -6,6 +6,7 @@ body {
   padding: 0;
   width: 100% !important;
   overflow-x: hidden !important;
+  scroll-behavior: smooth !important;
 }
 
 body {
