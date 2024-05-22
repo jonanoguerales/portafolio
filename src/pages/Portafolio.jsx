@@ -18,22 +18,29 @@ function Portafolio() {
           animate={controls}
           transition={{ duration: 1 }}
         >
-          <Title title="Portafolio" lineCenter={false} colorFondo="black"/>
+          <Title title="Portafolio" lineCenter={false} colorFondo="black" />
           <p>Proyectos realizados</p>
         </motion.div>
-        <motion.div 
+        <motion.div
           className="blogs"
           variants={textAnimation}
           animate={controls}
-          >
+        >
+          <Blog
+            className="image3"
+            title="Movilizatee"
+            subTitle="Aplicación web creada para un amigo, para el entrenamiento personal, creada con Astro y Tailwind. En la aplicación puedes navegar por las distintas páginas con distinto contenido, donde podrás obtener información, contratar un plan de entrenamiento o contactar con el entrenador."
+            href1="https://github.com/jonanoguerales/MovilizateWeb"
+            href2="https://movilizatee.com"
+            variants={cardAnimation}
+            animate={controls}
+          />
           <Blog
             className="image1"
             title="Blog Sitio Web"
-            subTitle="Blog para usuarios, con un registro y un login, donde pueden compartir cualquier historia o publicación, cada blog está clasificado por categorías y cada blog puede ser modificado por su propietario.
-            Cada usuario cuenta con su propia página de perfil y opciones donde puede editar su perfil. Cuenta con CRUD y Dashboard para usuarios con rol de admin y gestión de imágenes. El backend, api rest está realizado
-            con node, express, distintas librerías y base de datos mongoDB. Y el fronted con React, Axios para las llamadas a la api y distintas librerías."
-            href1="https://github.com/jonanoguerales/BlogIn"
-            href2="https://blog-in.vercel.app"
+            subTitle="Aplicación web para un blog de recetas de cocina, en la que se podrá crear y compartir recetas, editarlas y comentarlas, hay otros apartados como contacto para contactar con los administradores del blog, apartados como perfil, ajustes y un dasHboard para usuarios con rol de administrador, donde ver estadísticas o datos, como también donde se puede editar, eliminar o crear usuarios y posts. El frontEnd está creada con React, Next.js, Tailwind, el backEnd con Node.js, Express.js, la base de datos con MongoDB y servidor en la nube para la multimedia con Cloudinary."
+            href1="https://github.com/jonanoguerales/blogCook"
+            href2="https://blog-cook.vercel.app"
             variants={cardAnimation}
             animate={controls}
           />
@@ -44,16 +51,6 @@ function Portafolio() {
             Está creado con react, node.js, sass y framer motion."
             href1="https://github.com/jonanoguerales/portafolio"
             href2="https://portafoliojonathannoguerales.vercel.app"
-            variants={cardAnimation}
-            animate={controls}
-          />
-          <Blog
-            className="image3"
-            title="Wishlist"
-            subTitle="Pequeño proyecto de una lista de deseos con un CRUD, un login y un registro. 
-            Está creado con PHP y MySQL."
-            href1="https://github.com/jonanoguerales/Wishlist-PHP-y-MySQL"
-            href2="https://github.com/jonanoguerales/Wishlist-PHP-y-MySQL"
             variants={cardAnimation}
             animate={controls}
           />

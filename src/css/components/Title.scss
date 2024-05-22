@@ -1,16 +1,16 @@
 @import "../utils/Colors.scss";
 .title {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   h2 {
-    margin-bottom: 0.7rem;
+    margin-bottom: 0.2rem;
     font-size: xx-large;
   }
-  .black{
-      color: $blackColor;
-    }
-  .white{
-      color: $whiteColor;
-    }
+  .black {
+    color: $blackColor;
+  }
+  .white {
+    color: $whiteColor;
+  }
   div {
     height: 0.3rem;
     width: 3rem;
