@@ -141,6 +141,18 @@ export default function Skills() {
             nombre="ExpressJS"
           />
           <Testimonial
+            image={Image22}
+            variants={cardAnimation}
+            animate={controls}
+            nombre="Figma"
+          />
+          <Testimonial
+            image={Image23}
+            variants={cardAnimation}
+            animate={controls}
+            nombre="Jira"
+          />
+          <Testimonial
             image={Image14}
             variants={cardAnimation}
             animate={controls}
@@ -157,18 +169,6 @@ export default function Skills() {
             variants={cardAnimation}
             animate={controls}
             nombre="MySql"
-          />
-          <Testimonial
-            image={Image22}
-            variants={cardAnimation}
-            animate={controls}
-            nombre="Figma"
-          />
-          <Testimonial
-            image={Image23}
-            variants={cardAnimation}
-            animate={controls}
-            nombre="Jira"
           />
         </div>
       </div>

@@ -45,6 +45,15 @@ function Portafolio() {
             animate={controls}
           />
           <Blog
+            className="image4"
+            title="Juego de parejas"
+            subTitle="Juego de encontrar su pareja, creado en TypeScript"
+            href1="https://github.com/jonanoguerales/juegoParejas"
+            href2="https://juego-parejas.vercel.app"
+            variants={cardAnimation}
+            animate={controls}
+          />
+          <Blog
             className="image2"
             title="Portafolio CV"
             subTitle="Portafolio para representar en él, tu CV, sobre tí, tus conocimientos, tus proyectos y un apartado de contacto.
