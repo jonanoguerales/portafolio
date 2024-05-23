@@ -38,7 +38,7 @@ function Portafolio() {
           <Blog
             className="image1"
             title="Blog Sitio Web"
-            subTitle="Aplicación web para un blog de recetas de cocina, en la que se podrá crear y compartir recetas, editarlas y comentarlas, hay otros apartados como contacto para contactar con los administradores del blog, apartados como perfil, ajustes y un dasHboard para usuarios con rol de administrador, donde ver estadísticas o datos, como también donde se puede editar, eliminar o crear usuarios y posts. El frontEnd está creada con React, Next.js, Tailwind, el backEnd con Node.js, Express.js, la base de datos con MongoDB y servidor en la nube para la multimedia con Cloudinary."
+            subTitle="Aplicación web para un blog de recetas de cocina, en la que se podrá crear y compartir recetas, editarlas y comentarlas, hay otros apartados como contacto para contactar con los administradores del blog, apartados como perfil, ajustes y un dashboard para usuarios con rol de administrador, donde ver estadísticas o datos, como también donde se puede editar, eliminar o crear usuarios y posts. El FrontEnd está creada con React, Next.js, Tailwind, el BackEnd con Node.js, Express.js, la base de datos con MongoDB y servidor en la nube para la multimedia con Cloudinary."
             href1="https://github.com/jonanoguerales/blogCook"
             href2="https://blog-cook.vercel.app"
             variants={cardAnimation}
